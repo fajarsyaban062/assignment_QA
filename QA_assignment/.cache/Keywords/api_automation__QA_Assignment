@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "5A5D4F11B4043E12858FFD24A17B0BA2",
+  "keywordClasses": [
+    {
+      "name": "api_automation.QA_Assignment",
+      "keywordMethods": [
+        {
+          "name": "assignment",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "oldassignment",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

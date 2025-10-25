@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "08000BBF23556BCCFADF68B1D18B1D86",
+  "keywordClasses": [
+    {
+      "name": "QA_Assignment",
+      "keywordMethods": [
+        {
+          "name": "assignment",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
