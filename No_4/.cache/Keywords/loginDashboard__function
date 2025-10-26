@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "03DE41ACA12D969BFC62B7616D84CBD0",
+  "keywordClasses": [
+    {
+      "name": "loginDashboard.function",
+      "keywordMethods": [
+        {
+          "name": "robotclick",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

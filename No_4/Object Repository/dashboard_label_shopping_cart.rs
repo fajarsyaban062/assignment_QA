@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dashboard_label_shopping_cart</name>
+   <tag></tag>
+   <elementGuidId>f66b6466-b7aa-44a0-8b4c-1485333453ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'shopping_cart_container']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>89bd2627-71d3-48b3-b7df-e16bb0ac6d44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>shopping_cart_container</value>
+      <webElementGuid>30f8db52-411c-4ce3-8047-09a9c8cba920</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

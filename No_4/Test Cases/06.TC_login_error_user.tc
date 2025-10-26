@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06.TC_login_error_user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>198229cb-5981-45fd-9aba-1a70b2a1499a</testCaseGuid>
+</TestCaseEntity>

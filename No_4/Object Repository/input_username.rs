@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_username</name>
+   <tag></tag>
+   <elementGuidId>b5700895-8316-44a3-8c57-64d942e1a9ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'user-name']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d7d7bb77-e82b-439c-ab4b-248edfced30c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>user-name</value>
+      <webElementGuid>dca56452-b172-4d2c-8a3b-4c0053254918</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

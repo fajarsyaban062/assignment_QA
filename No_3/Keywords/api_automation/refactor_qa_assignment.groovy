@@ -11,7 +11,7 @@ import groovy.json.JsonSlurper
 public class refactor_qa_assignment {
 
 	private static final String BASE_URL = "https://reqres.in"
-	
+
 	/**
 	 * Helper untuk soft assert. Memeriksa kesamaan.
 	 * @param actual Nilai aktual
@@ -38,7 +38,7 @@ public class refactor_qa_assignment {
 			KeywordUtil.markFailed("   [FAILED] ${message}. (Actual: null)")
 		}
 	}
-	
+
 	/**
 	 * Helper untuk soft assert. Memeriksa kondisi true.
 	 * @param condition Kondisi yang harus true
@@ -52,7 +52,7 @@ public class refactor_qa_assignment {
 			KeywordUtil.markFailed("   [FAILED] ${message}. (Actual: ${actualInfo})")
 		}
 	}
-	
+
 	/**
 	 * [TC-01, TC-02]
 	 * Memverifikasi halaman list user yang valid.
@@ -72,7 +72,7 @@ public class refactor_qa_assignment {
 		def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
 
 		println(jsonResponse)
-		
+
 		if(statusCode == 200) {
 			KeywordUtil.logInfo("Success status 200")
 			softAssertEquals(jsonResponse.page, pageNumber, "Verifikasi nomor halaman di response")
@@ -100,7 +100,7 @@ public class refactor_qa_assignment {
 				.build()
 
 		ResponseObject response = WS.sendRequest(request)
-//		String response200 = WS.verifyResponseStatusCode(response, 200)
+		//		String response200 = WS.verifyResponseStatusCode(response, 200)
 		int statusCode = response.getStatusCode()
 		def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
 
@@ -170,9 +170,9 @@ public class refactor_qa_assignment {
 		ResponseObject response = WS.sendRequest(request)
 		int statusCode = response.getStatusCode()
 		def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-		
+
 		println(jsonResponse)
-		
+
 		if(statusCode == 200) {
 			if (jsonResponse.data.size() > 0) {
 				for(int i=0; i>=6; i++) {
@@ -186,7 +186,7 @@ public class refactor_qa_assignment {
 				}
 			}
 		}else if(statusCode == 401) {
-				softAssertNotNull(jsonResponse.error, "missing api key")
+			softAssertNotNull(jsonResponse.error, "missing api key")
 		}
 	}
 
@@ -206,14 +206,13 @@ public class refactor_qa_assignment {
 		ResponseObject response = WS.sendRequest(request)
 		int statusCode = response.getStatusCode()
 		def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-		
+
 		if(statusCode == 200) {
 			String contentType = response.getHeaderField("Content-Type")
 			softAssertTrue(contentType.contains("application/json"), "Content-Type harus application/json", contentType)
-	
+
 			long responseTime = response.getElapsedTime()
 			softAssertTrue(responseTime <= maxResponseTimeMs, "Waktu respons (${responseTime}ms) melebihi batas (${maxResponseTimeMs}ms)", "${responseTime}ms")
-			
 		}else if(statusCode == 401) {
 			softAssertNotNull(jsonResponse.error, "missing api key")
 		}
@@ -243,12 +242,12 @@ public class refactor_qa_assignment {
 
 			ResponseObject response = WS.sendRequest(request)
 			WS.verifyResponseStatusCode(response, 401)
-			
+
 			String statusCode = response.getStatusCode().toString()
 			softAssertTrue(statusCode.substring(0, 1) != "2", "Verifikasi status BUKAN 200 untuk method ${method}", "Actual status: ${statusCode}")
 		}
 	}
-	
+
 	/**
 	 * [GUL-11]
 	 * Memverifikasi/mencari seorang user spesifik di dalam data list halaman.
@@ -259,28 +258,26 @@ public class refactor_qa_assignment {
 	@Keyword
 	def verifyUserExistsOnPage(int pageNumber, String attribute, def expectedValue) {
 		println "Mencari user di halaman ${pageNumber} dengan ${attribute} = ${expectedValue}"
-		
+
 		def request = new RestRequestObjectBuilder()
-			.withRestRequestMethod("GET")
-			.withRestUrl(BASE_URL + "/api/users?page=" + pageNumber)
-			.build()
+				.withRestRequestMethod("GET")
+				.withRestUrl(BASE_URL + "/api/users?page=" + pageNumber)
+				.build()
 
 		ResponseObject response = WS.sendRequest(request)
 		int statusCode = response.getStatusCode()
-		
+
 		if (statusCode == 200) {
 			def jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-			
+
 			def foundUser = jsonResponse.data.find { it."${attribute}" == expectedValue }
 			softAssertNotNull(foundUser, "Verifikasi user dengan ${attribute} = ${expectedValue} ditemukan di halaman ${pageNumber}")
-			
+
 			if (foundUser != null) {
 				KeywordUtil.logInfo("   [INFO] Data user yang ditemukan: ${foundUser}")
 			}
-
 		} else {
 			KeywordUtil.markFailed("Gagal mengambil data halaman ${pageNumber}. Status: ${statusCode}")
 		}
 	}
-
 }

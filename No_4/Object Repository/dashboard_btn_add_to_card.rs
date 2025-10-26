@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dashboard_btn_add_to_card</name>
+   <tag></tag>
+   <elementGuidId>f0073252-548f-4992-9334-dc1d0dfa65a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'add-to-cart-sauce-labs-backpack']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a6284907-f83e-4d75-a55a-3c5d282bcc6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>add-to-cart-sauce-labs-backpack</value>
+      <webElementGuid>7c9cf752-5673-42d8-a6c7-ff8ecbfed3fb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

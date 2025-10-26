@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dashboard_btn_remove_saucelabs_backpack</name>
+   <tag></tag>
+   <elementGuidId>c0943dd7-d531-441b-b46b-1bc759efd6ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'remove-sauce-labs-backpack']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>85e7430f-807b-44c8-9095-2f1416ec6989</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>remove-sauce-labs-backpack</value>
+      <webElementGuid>614b80bf-c006-4f6b-bb36-fb6f4e10bc77</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

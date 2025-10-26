@@ -1,0 +1,1 @@
+CustomKeywords.'loginDashboard.login.doLogin'("standard_user", "secret_sauce", "default")

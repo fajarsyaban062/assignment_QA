@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03.TC_login_performance_glitch_user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b3c6dc2-4612-401a-8dc2-1b554862eec6</testCaseGuid>
+</TestCaseEntity>

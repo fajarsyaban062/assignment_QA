@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dashboard_btn_back_to_product</name>
+   <tag></tag>
+   <elementGuidId>c490030b-f1a0-4010-8b4a-e6671a240c55</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'back-to-products']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>76d8f5ca-e739-48f3-847a-1a1247aa5de7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>back-to-products</value>
+      <webElementGuid>fd4d2261-def4-41df-ba22-847486cbc828</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

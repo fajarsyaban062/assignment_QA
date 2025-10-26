@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>08.TC_login_negative_username_is_required</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a40cabe2-6dba-44bf-84c0-6c87647e9d44</testCaseGuid>
+</TestCaseEntity>

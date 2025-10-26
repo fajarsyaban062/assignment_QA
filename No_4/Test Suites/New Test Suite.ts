@@ -10,82 +10,75 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>b672e500-124c-4cae-8b10-eab59c283b81</testSuiteGuid>
+   <testSuiteGuid>2a5b2745-5439-4d58-b813-8428ddc42e52</testSuiteGuid>
    <testCaseLink>
-      <guid>25c0cfb2-600d-4625-92da-0fd293312eae</guid>
+      <guid>a61f643a-9f1a-4b04-bb7d-f618137ff7b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_API_reqres_01</testCaseId>
+      <testCaseId>Test Cases/01.TC_login_standard_user</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>79a565ec-e439-4b83-8552-a75ba65e4440</guid>
+      <guid>519bede3-9969-4917-954e-449b40ec28bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_API_reqres_02</testCaseId>
+      <testCaseId>Test Cases/02.TC_login_problem_user</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8a1bdbe8-4199-4ac6-8864-c03cc3981f5a</guid>
+      <guid>c07b89d8-019e-4e46-96bc-8a4a5b2b65ae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_API_reqres_03</testCaseId>
+      <testCaseId>Test Cases/03.TC_login_performance_glitch_user</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f1a0b1b7-c869-46ee-9bef-f23222c79af8</guid>
+      <guid>4f1d2617-0c07-4bf7-92b4-db8579130566</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_API_reqres_04</testCaseId>
+      <testCaseId>Test Cases/04.TC_login_visual_user</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>da70d1df-0bd2-4eee-8947-5889646cdd5e</guid>
+      <guid>363b8ab5-6d6c-4e04-80bd-1794add6f0b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_API_reqres_05</testCaseId>
+      <testCaseId>Test Cases/05.TC_login_locked_out_user</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>895360cb-b0c3-468f-bbeb-d1a78e2b1787</guid>
+      <guid>e2f3210f-31c1-465f-aaa0-857ee2681496</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_API_reqres_06</testCaseId>
+      <testCaseId>Test Cases/06.TC_login_error_user</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5ef7ba94-10f9-41ca-a088-cdf7102a85a8</guid>
+      <guid>6113ea94-5e7f-4edb-aca9-3fd70d0f0435</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_API_reqres_07</testCaseId>
+      <testCaseId>Test Cases/07.TC_login_negative_username_and_password_required</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ba7e55f5-fc25-4f48-9500-1f64cbef1911</guid>
+      <guid>0d526bd2-1e26-4ba4-8371-a1427688f429</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_API_reqres_08</testCaseId>
+      <testCaseId>Test Cases/08.TC_login_negative_username_is_required</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ee8b4403-d5c6-42e3-9a8b-4758f7dad2c9</guid>
+      <guid>684494c2-a678-4084-b539-07e7aa375d62</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_API_reqres_09</testCaseId>
+      <testCaseId>Test Cases/09.TC_login_negative_password_is_required</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bea9ded7-db5e-49e1-8d13-1f73673b6b36</guid>
+      <guid>c4b71643-2005-4c39-bc5a-75471c432412</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_API_reqres_10</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>27af2bc1-c04f-4efc-947f-76501d73fb4f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_API_reqres_11</testCaseId>
+      <testCaseId>Test Cases/10.TC_login_negative_did_not_match</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

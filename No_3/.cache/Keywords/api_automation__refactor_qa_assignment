@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "6A2433FB3241534F68DDBB8AEC011246",
+  "keywordFileContentHash": "4D7F421DB931093956A2502BC3B43A1A",
   "keywordClasses": [
     {
       "name": "api_automation.refactor_qa_assignment",
@@ -20,11 +20,13 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * [TC-01, TC-02]\r\n\t * Memverifikasi halaman list user yang valid.\r\n\t * @param pageNumber Nomor halaman yang akan diuji.\r\n\t */"
         },
         {
           "name": "verifyUserListDefaultsToPageOne",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * [TC-03]\r\n\t * Memverifikasi bahwa endpoint default ke halaman 1 jika tidak ada parameter.\r\n\t */"
         },
         {
           "name": "verifyUserListPageNotFound",
@@ -42,7 +44,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * [TC-04]\r\n\t * Memverifikasi halaman yang tidak ada (di luar jangkauan).\r\n\t * ReqRes mengembalikan 200 OK dengan data kosong.\r\n\t */"
         },
         {
           "name": "verifyUserListHandlesInvalidPageParam",
@@ -60,7 +63,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * [TC-05, TC-06]\r\n\t * Memverifikasi parameter halaman yang tidak valid (string, 0, negatif).\r\n\t * ReqRes mengabaikannya dan default ke halaman 1.\r\n\t */"
         },
         {
           "name": "verifyUserPropertyListPageIsValid",
@@ -78,7 +82,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * [TC-07]\r\n\t * Memverifikasi format dan exist data.\r\n\t */"
         },
         {
           "name": "verifyResponseHeadersAndPerformance",
@@ -96,11 +101,13 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * [TC-08, TC-09]\r\n\t * Memverifikasi header dan waktu respons.\r\n\t */"
         },
         {
           "name": "verifyDisallowedMethods",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * [TC-10]\r\n\t * Memverifikasi metode HTTP yang tidak diizinkan.\r\n\t * API yang baik harus mengembalikan 405. ReqRes mungkin mengembalikan 404.\r\n\t */"
         },
         {
           "name": "verifyUserExistsOnPage",
@@ -144,10 +151,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * [GUL-11]\r\n\t * Memverifikasi/mencari seorang user spesifik di dalam data list halaman.\r\n\t * @param pageNumber Halaman yang akan di-GET\r\n\t * @param attribute Kunci JSON yang akan dicari (e.g., \"email\", \"id\", \"first_name\")\r\n\t * @param expectedValue Nilai yang diharapkan untuk atribut tersebut\r\n\t */"
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
